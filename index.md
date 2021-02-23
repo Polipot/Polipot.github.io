@@ -1,3 +1,139 @@
-<HTML>
-	<H1>this is a Website</H1>
-<p><a href="mySite.html">Mon site</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+    *{
+    	box-sizing: border-box;
+    }
+    
+    body
+    {
+    	font-family: Arial, Helvetica, sans-serif;
+  		margin: 0;
+    }
+    
+    .row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  padding: 20px;
+}
+
+.Lside {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  padding: 20px;
+}
+    .SideLeft
+    {
+    	-ms-flex: 30%; /* IE10 */
+  		flex: 30%;
+        padding: 10px;
+    }
+    .PerfectSide
+    {
+    	-ms-flex: 50%; /* IE10 */
+  		flex: 50%;
+        padding: 10px;
+    }
+    .SideRight
+    {
+    	-ms-flex: 70%; /* IE10 */
+        flex: 70%;
+        padding: 10px;
+    }
+    .ImageToRight
+    {
+    	text-align: right;
+    }
+    
+    .aBigTitle{font-size: 30px; font-weight:bold; color: #afe3fc; text-align: center; padding: 10px;}
+    
+    .aBgdSquare{background-color: #333; color: black; padding: 20px;}
+    .aBgdSquare2{background-color: #606060; color: black; padding: 20px;}
+    
+    .aTitle{font-size: 18px; font-weight:bold; color: white;}
+    .aExplanation{font-size: 16px; color: white;}
+    .aBigExplanation{font-size: 20px; color: #919191;}
+    .aLink{font-size: 16px; font-weight:bold; color: #afe3fc;}
+    .aLink:hover{color: #white;}
+    
+    </style>
+
+</head>
+
+<body>
+
+	<div class = "aBgdSquare">
+    	<div class = "row">
+        	<div class = "main">
+            	<img src = "https://scontent-mrs2-2.xx.fbcdn.net/v/t1.0-9/44046031_680049155711267_5732608796908322816_n.jpg?_nc_cat=102&ccb=3&_nc_sid=a4a2d7&_nc_ohc=etZWstRUp8kAX9Jga7v&_nc_ht=scontent-mrs2-2.xx&oh=4290fba11223e1a6723a962cf2b9abe4&oe=605B08A8", style = "padding: 0; Height: 200px">
+            </div>
+            <div class = "side">
+            	<div class = "aBigTitle", style = "text-align: right;">Jules ROUAULT</div><br>
+                <div class = "aBigTitle", style = "text-align: right; color: white; font-size: 20px;">Game Design Student</div>
+            </div>
+        </div>
+    </div>
+
+	<div class = "row">
+    	<div class = "Lside", style = "background-color: #eaeaea;">
+        	<div class = "aTitle", style="font-size: 32px; color: #333; padding: 15px">About me...</div><br><br>
+            <div class = "aBigExplanation", style = "font-weight:bold;padding: 15px">I'm a 3rd year Game Design student in E-ArtSup Lyon, and I am specialized in c# programming in Unity<br><br>
+            I usually work in school projects as a c# programmer, developing AI and interfaces to ease their utilization by my co-workers.<br><br>
+            I am a Game Jam lover, and always jump on an opportunity to do one, may it be two days with some friends, or even one week alone.<br><br>
+            As my studies are soon coming to an end, I am searching for a job ,alternation, or internship in the video game industry.
+            </div>
+        </div>
+        
+        <div class = "main">
+        	<div class = "aTitle", style="font-size: 42px; color: #333; padding: 15px">My projects...</div><br><br>
+        
+        	<div class = "aBgdSquare", style="Width: 780px">
+            	<div class = "aTitle", style="font-size: 32px; color: #afe3fc;">Reunion</div><br>
+    			<div class = "row">
+                	<div class = "PerfectSide">
+                    	<img src = "https://img.itch.zone/aW1hZ2UvOTAzNDIyLzUxMDA5MDgucG5n/347x500/HIrnf6.png", style = "padding: 0;"></img>
+                    </div>
+                    <div class = "PerfectSide">
+                    	<div class = "aTitle", Style = "text-align: left">
+                        	My Roles:<br><br>
+                            - Pixel Art<br>
+                            - Musical Composition<br>
+                            - C# Script Correction<br>
+                        </div>
+                    </div>
+                </div>
+        		<br>
+        		<div class = "aBgdSquare2", style="Width: 580">
+            		<div class = "aExplanation">This is an explanation. Yes.</div><br>
+            		<div class = "aLink">
+            	<a href="https://polipot.itch.io/reunion">See more on my Itch.io...</a>
+            </div><br><br>
+        </div>
+    </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
