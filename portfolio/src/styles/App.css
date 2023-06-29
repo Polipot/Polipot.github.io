@@ -6,6 +6,9 @@ header{
   height: 200px;
   width: 100%;
 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 1em;
 
   background-color: #2C3842;
@@ -34,12 +37,20 @@ footer{
   justify-content: center;
   align-items: center;
 
-  background-color: #BFCDCB;
+  background-color: #2C3842;
 }
-/* #BE8779 */
-/* #D5B5A6 */
 
 /* SECTIONS  */
+.header_left{
+  display: flex;
+}
+
+nav{
+  display: flex;
+  gap: 1em;
+  margin-right: 3em;
+}
+
 .projects_cards{
   display: flex;
   flex-direction: column;
@@ -87,3 +98,12 @@ footer{
 
   border-radius: 1em;
 }
+
+.card img{
+  height: 36px;
+}
+
+/* Palette couleur */
+/* #181818 black */ 
+/* #f1f1f0 blanc casse */
+/* #343434 gris */

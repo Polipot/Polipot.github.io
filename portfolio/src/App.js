@@ -3,13 +3,11 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import LineVertical from './components/LineVertical';
 import Card from './layouts/Card';
+import projects from './assets/projects.json';
 // import Form from './layouts/Form';
 
 const App = () => {
-  const cards = [
-    { title: 'Titre 1', image: '/chemin/vers/image1.jpg', description: 'Description 1' },
-    { title: 'Titre 2', image: '/chemin/vers/image2.jpg', description: 'Description 2' },
-  ];
+  const cards = projects;
 
   return (
     <>
@@ -31,3 +29,13 @@ const App = () => {
 };
 
 export default App;
+
+// https://www.adhamdannaway.com/about
+// Header 
+// about + visage
+// section competence
+// section experiences
+// section formulaire
+// footer
+
+// https://polipot.github.io/mySite.html
