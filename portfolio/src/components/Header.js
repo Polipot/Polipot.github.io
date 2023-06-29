@@ -1,16 +1,17 @@
 import '../styles/App.css';
+
 function Header() {
-  const currentRoute = window.location.pathname;
-  const classNameH = currentRoute === '/home' ? 'active-link' : '';
-  const classNameA = currentRoute === '/about' ? 'active-link' : '';
+  // const currentRoute = window.location.pathname;
+  // const classNameH = currentRoute === '/home' ? 'active-link' : '';
+  // const classNameA = currentRoute === '/about' ? 'active-link' : '';
   return (
-    <section className='header'>
-      <img src={logo} alt='Icône de Kasa'></img>
+    <header>
+      <h1>Jules ROUAULT</h1>
       <nav>
-        <a href="/home" className={classNameH} >Accueil</a>
-        <a href="/about" className={classNameA}>A Propos</a>
+        <a href='#projects_cards'>My projects</a>
+        <a href='#form'>Contact</a>
       </nav>
-    </section>
+    </header>
   );
 }
 
