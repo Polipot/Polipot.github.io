@@ -10,15 +10,17 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        placeholder="Votre email"
-      />
-      <button type="submit">Envoyer</button>
-    </form>
+    <section>
+        <form onSubmit={handleSubmit}>
+            <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Votre email"
+            />
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
   );
 };
 

@@ -1,37 +1,29 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
 import LineVertical from './components/LineVertical';
 import Card from './layouts/Card';
 import projects from './assets/projects.json';
-// import Form from './layouts/Form';
 
 const App = () => {
-  const cards = projects;
+   const cards = projects;
 
-  return (
-    <>
-      <Header />
+   return (
       <main>
         <section className='projects_cards' id='projects_cards'>
-          {/* <LineVertical /> */}
+          <LineVertical />
           {cards.map((card, index) => (
             <Card key={index} {...card} className={index % 2 === 0 ? 'left_card' : 'right_card'} />
           ))}
         </section>
-        <section>
-          {/* <Form /> */}
-        </section>
+         {/* <Form /> */}
       </main>
-      <Footer />
-    </>
-  );
+   );
 };
+
 
 export default App;
 
 // https://www.adhamdannaway.com/about
-// Header 
+// Header
 // about + visage
 // section competence
 // section experiences

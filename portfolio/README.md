@@ -72,5 +72,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### How to prepapre the project after installation
 Go to the portfolio folder
-Run the 'npm install' command, 'npm install react-router-dom'.
+Run the 'npm install' command, 'npm install react-router-dom'
+npm install react-helmet-async
+
+# Free icons styles
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+
 To run 'npm start

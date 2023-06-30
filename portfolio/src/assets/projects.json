@@ -1,28 +1,90 @@
 [
-    {
-       "title":"Aravea Chronics",
-       "image":"/chemin/vers/image1.jpg",
-       "roles":[
-        "Developper C#",
-        "Game Desinger",
-        "2D Game Artist"
-       ],
-       "description":"Lead your fighters to the victory, using different weapons and spells to dominate your enemies in this turn by turn strategy game. This is a solo unfinished project, where I experienced many different things with A*. At the current state of the project, the player can control different characters, with differents weapons, wich gives differents attacks with differents patterns, ... While the enemies IA are able to play again the player, having the same rules as him, and targeting different characters regarding of a random behaviour.",
-       "count":"1",
-       "links":[
-        {"itchio":"https://polipot.itch.io"},
-        {"github":"https://github.com/Polipot"},
-        {"linkedin":""}
-       ]
-    },
-    {
-       "title":"Titre 2",
-       "image":"/chemin/vers/image2.jpg",
-       "description":"Description 2"
-    },
-    {
-       "title":"Titre 2",
-       "image":"/chemin/vers/image2.jpg",
-       "description":"Description 2"
-    }
+   {
+      "title": "Aravea Chronics",
+      "image": "/img_projects/schema_project.PNG",
+      "roles": [
+         "Developper C#",
+         "Game Desinger",
+         "2D Game Artist"
+      ],
+      "description": "Lead your fighters to the victory, using different weapons and spells to dominate your enemies in this turn by turn strategy game. This is a solo unfinished project, where I experienced many different things with A*.",
+      "count": "1",
+      "links": [
+         {
+            "itchio": "https://polipot.itch.io"
+         },
+         {
+            "github": "https://github.com/Polipot"
+         },
+         {
+            "linkedin": ""
+         }
+      ]
+   },
+   {
+      "title": "Aravea Chronics 1",
+      "image": "/img_projects/schema_project.PNG",
+      "roles": [
+         "Developper C#",
+         "Game Desinger",
+         "2D Game Artist"
+      ],
+      "description": "Lead your fighters to the victory, using different weapons and spells to dominate your enemies in this turn by turn strategy game. This is a solo unfinished project, where I experienced many different things with A*.",
+      "count": "1",
+      "links": [
+         {
+            "itchio": "https://polipot.itch.io"
+         },
+         {
+            "github": "https://github.com/Polipot"
+         },
+         {
+            "linkedin": ""
+         }
+      ]
+   },
+   {
+      "title": "Aravea Chronics 2",
+      "image": "/img_projects/schema_project.PNG",
+      "roles": [
+         "Developper C#",
+         "Game Desinger",
+         "2D Game Artist"
+      ],
+      "description": "Lead your fighters to the victory, using different weapons and spells to dominate your enemies in this turn by turn strategy game. This is a solo unfinished project, where I experienced many different things with A*.",
+      "count": "1",
+      "links": [
+         {
+            "itchio": "https://polipot.itch.io"
+         },
+         {
+            "github": "https://github.com/Polipot"
+         },
+         {
+            "linkedin": ""
+         }
+      ]
+   },
+   {
+      "title": "Aravea Chronics 3",
+      "image": "/img_projects/schema_project.PNG",
+      "roles": [
+         "Developper C#",
+         "Game Desinger",
+         "2D Game Artist"
+      ],
+      "description": "Lead your fighters to the victory, using different weapons and spells to dominate your enemies in this turn by turn strategy game. This is a solo unfinished project, where I experienced many different things with A*.",
+      "count": "1",
+      "links": [
+         {
+            "itchio": "https://polipot.itch.io"
+         },
+         {
+            "github": "https://github.com/Polipot"
+         },
+         {
+            "linkedin": ""
+         }
+      ]
+   }
 ]
