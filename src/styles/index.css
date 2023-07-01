@@ -65,7 +65,7 @@ a:hover::after {
    justify-content: center;
    align-items: center;
 
-   padding: 6px;
+   padding: 4px 8px;
 
    color: #f1f1f0;
    background-color: #181818;
